@@ -1,0 +1,33 @@
+name: formsprog
+description: Buy It For Life - innovation project
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #sqflite:
+  #path:
+
+  font_awesome_flutter: any
+  #flutter_adaptive_scaffold: ^0.0.8
+  #sqflite_common_ffi: ^2.2.0+1
+  postgres: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
